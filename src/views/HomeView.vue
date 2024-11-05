@@ -1,8 +1,8 @@
 <script setup>
-import Introduction from '../components/Introduction.vue'
+import BasicInfo from '../components/BasicInfo.vue'
 
 </script>
 
 <template>
-    <Introduction />
+    <BasicInfo />
 </template>

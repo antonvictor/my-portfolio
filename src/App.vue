@@ -1,6 +1,6 @@
 <script setup>
 import { RouterView } from 'vue-router'
-import HelloAnimation from './components/HelloAnimation.vue' // Import the animation component
+import HelloAnimation from './components/HelloAnimation.vue' 
 import { ref } from 'vue'
 
 const showHelloAnimation = ref(!localStorage.getItem("visitedBefore"));
@@ -8,7 +8,6 @@ const showHelloAnimation = ref(!localStorage.getItem("visitedBefore"));
 </script>
 
 <template>
-    <!-- Display the animation on first load -->
     <HelloAnimation :key="showHelloAnimation" />
   <div  class="grid-layout">
   <ul class="side-panel">
@@ -20,7 +19,7 @@ const showHelloAnimation = ref(!localStorage.getItem("visitedBefore"));
     <RouterLink to="/poke-index-project" class="btn" active-class="btn-active">Poké Index</RouterLink>
     <RouterLink to="/wordle-clone" class="btn" active-class="btn-active">Wordle Clone</RouterLink>
  
-
+ 
   </ul>
   <RouterView />
 </div>

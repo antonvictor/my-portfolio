@@ -1,3 +1,12 @@
+@keyframes gradientBackground {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+
+
+
 body {
   min-height: 100vh;
   max-width: 100vw;
@@ -6,11 +15,11 @@ body {
   margin: 0 ;
   /* background: linear-gradient(135deg, #B3B3F1, #A5D8F3, #F2B6C5, #FFD4A3);  Sharpest Gradient */ 
     /* background: linear-gradient(135deg, #D6D6F1, #A8E2F8, #F6D5D7, #FFE3B3); Sharper Gradient*/
-  /* background: linear-gradient(135deg, #E8E8F3, #D0E8F8, #F9E2E5, #FFF5D3);    Less Sharp Gradient*/ 
-  background: linear-gradient(135deg, #F3FAFF, #E9F8F9, #FFF1E6, #FFF8E0); /* Least Sharp Gradient */
+  background: linear-gradient(135deg, #E8E8F3, #D0E8F8, #F9E2E5, #FFF5D3);  /*  Less Sharp Gradient */
+  /* background: linear-gradient(135deg, #F3FAFF, #E9F8F9, #FFF1E6, #FFF8E0); Least Sharp Gradient */
 
   background-size: 400% 400%;
-  animation: gradientBackground 15s ease infinite;
+  animation: gradientBackground 10s ease infinite;
   
 }
 h1{
@@ -90,8 +99,8 @@ section {
 }
 
 .side-panel h1 {
-  padding-top: 3rem  ;
-  padding-bottom: 3rem;
+  padding-top: 2.5rem  ;
+  padding-bottom: 2.5rem;
 }
 
 
@@ -320,6 +329,8 @@ gap: 2rem;
 
 
 
+
+
 /* @media (max-width: 1920px) {
   .grid-layout {
     grid-template-columns: repeat(9 , 1fr); 
@@ -347,3 +358,5 @@ gap: 2rem;
     padding: 10px;    
   }
 } */
+
+

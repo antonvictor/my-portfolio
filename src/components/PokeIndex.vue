@@ -14,9 +14,7 @@ import videoPath from '../assets/poke-index.mp4'
 
     <h1 class="project-title">Poké Index</h1>
     <HoverVideo :image-src="imagePath" :video-src="videoPath" />
-    <h4 class="project-text">Create your personal list of favorite Pokémon! Add and remove Pokémon names, 
-    and each entry comes complete with an image fetched automatically, 
-    giving a visual twist to your collection.</h4>
+    <h4 class="project-text">Create your personal list of favorite Pokémon! Add and remove Pokémon names, each accompanied by an image fetched from an API, giving a visual twist to your collection.</h4>
       <div class="project-technologies">
         <h2>Technologies Used</h2>
         <div class="project-technologies-icons">

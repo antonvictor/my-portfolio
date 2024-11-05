@@ -15,8 +15,7 @@ import videoPath from '../assets/wordle.mp4'
       <h1 class="project-title">Wordle Game Clone</h1>
       <HoverVideo :image-src="imagePath" :video-src="videoPath" />
 
-    <h4 class="project-text">A React-based clone of the popular Wordle game, featuring a new randomly generated word each time. 
-      Test your vocabulary and guess the word within limited tries!</h4>
+    <h4 class="project-text">A React-based clone of the popular Wordle game, featuring a randomly generated word from an API each time you play. Challenge your vocabulary and try to guess the word within limited attempts!</h4>
       <div class="project-technologies">
         <h2>Technologies Used</h2>
         <div class="project-technologies-icons">
