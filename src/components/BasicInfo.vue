@@ -9,7 +9,7 @@
 
 <template>
   <div class="basic-info">
-<h1>Anton Victor, <br/> Front-End Developer</h1>
+<h1>Anton Victor, <br/>  <span class="job-title"> Front-End Developer </span></h1>
 
 
 <nav>

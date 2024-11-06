@@ -25,20 +25,16 @@ const cycleGreetings = () => {
 
 onMounted(() => {
   if (!localStorage.getItem("visitedBefore")) {
-    // Set localStorage to mark the user as having visited
     localStorage.setItem("visitedBefore", "true");
 
-    // Start cycling greetings every 2 seconds
     interval = setInterval(cycleGreetings, 200);
 
-    // Stop the animation after 10 seconds
     timeout = setTimeout(() => {
       showAnimation.value = false;
       clearInterval(interval);
-    }, 5000); // Adjust this duration as needed
+    }, 5000); 
     forceRerender()
   } else {
-    // If visited before, do not show the animation
     showAnimation.value = false;
   }
 });
